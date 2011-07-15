@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ADA422813D006C60025BB54 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADA422713D006C60025BB54 /* UIKit.framework */; };
+		1ADA422A13D006C60025BB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADA422913D006C60025BB54 /* Foundation.framework */; };
+		1ADA422C13D006C60025BB54 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADA422B13D006C60025BB54 /* CoreGraphics.framework */; };
+		1ADA423213D006C60025BB54 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1ADA423013D006C60025BB54 /* InfoPlist.strings */; };
+		1ADA423413D006C60025BB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA423313D006C60025BB54 /* main.m */; };
+		1ADA423813D006C60025BB54 /* ludusAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA423713D006C60025BB54 /* ludusAppDelegate.m */; };
+		1ADA423B13D006C60025BB54 /* ludusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA423A13D006C60025BB54 /* ludusViewController.m */; };
+		1ADA423E13D006C60025BB54 /* ludusViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ADA423C13D006C60025BB54 /* ludusViewController_iPhone.xib */; };
+		1ADA424113D006C60025BB54 /* ludusViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ADA423F13D006C60025BB54 /* ludusViewController_iPad.xib */; };
+		1ADA424913D006C60025BB54 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADA424813D006C60025BB54 /* SenTestingKit.framework */; };
+		1ADA424A13D006C60025BB54 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADA422713D006C60025BB54 /* UIKit.framework */; };
+		1ADA424B13D006C60025BB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADA422913D006C60025BB54 /* Foundation.framework */; };
+		1ADA424C13D006C60025BB54 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADA422B13D006C60025BB54 /* CoreGraphics.framework */; };
+		1ADA425413D006C60025BB54 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1ADA425213D006C60025BB54 /* InfoPlist.strings */; };
+		1ADA425613D006C60025BB54 /* ludusTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 1ADA425513D006C60025BB54 /* ludusTests.h */; };
+		1ADA425813D006C60025BB54 /* ludusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA425713D006C60025BB54 /* ludusTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1ADA424D13D006C60025BB54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1ADA421A13D006C60025BB54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ADA422213D006C60025BB54;
+			remoteInfo = ludus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1ADA422313D006C60025BB54 /* ludus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ludus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ADA422713D006C60025BB54 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1ADA422913D006C60025BB54 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1ADA422B13D006C60025BB54 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1ADA422F13D006C60025BB54 /* ludus-Info.plist */ = {isa = PBXFileReference; path = "ludus-Info.plist"; sourceTree = "<group>"; };
+		1ADA423113D006C60025BB54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1ADA423313D006C60025BB54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1ADA423513D006C60025BB54 /* ludus-Prefix.pch */ = {isa = PBXFileReference; path = "ludus-Prefix.pch"; sourceTree = "<group>"; };
+		1ADA423613D006C60025BB54 /* ludusAppDelegate.h */ = {isa = PBXFileReference; path = ludusAppDelegate.h; sourceTree = "<group>"; };
+		1ADA423713D006C60025BB54 /* ludusAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ludusAppDelegate.m; sourceTree = "<group>"; };
+		1ADA423913D006C60025BB54 /* ludusViewController.h */ = {isa = PBXFileReference; path = ludusViewController.h; sourceTree = "<group>"; };
+		1ADA423A13D006C60025BB54 /* ludusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ludusViewController.m; sourceTree = "<group>"; };
+		1ADA423D13D006C60025BB54 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ludusViewController_iPhone.xib; sourceTree = "<group>"; };
+		1ADA424013D006C60025BB54 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ludusViewController_iPad.xib; sourceTree = "<group>"; };
+		1ADA424713D006C60025BB54 /* ludusTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ludusTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ADA424813D006C60025BB54 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1ADA425113D006C60025BB54 /* ludusTests-Info.plist */ = {isa = PBXFileReference; path = "ludusTests-Info.plist"; sourceTree = "<group>"; };
+		1ADA425313D006C60025BB54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1ADA425513D006C60025BB54 /* ludusTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ludusTests.h; sourceTree = "<group>"; };
+		1ADA425713D006C60025BB54 /* ludusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ludusTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ADA422013D006C60025BB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADA422813D006C60025BB54 /* UIKit.framework in Frameworks */,
+				1ADA422A13D006C60025BB54 /* Foundation.framework in Frameworks */,
+				1ADA422C13D006C60025BB54 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADA424313D006C60025BB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADA424913D006C60025BB54 /* SenTestingKit.framework in Frameworks */,
+				1ADA424A13D006C60025BB54 /* UIKit.framework in Frameworks */,
+				1ADA424B13D006C60025BB54 /* Foundation.framework in Frameworks */,
+				1ADA424C13D006C60025BB54 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ADA421813D006C60025BB54 = {
+			isa = PBXGroup;
+			children = (
+				1ADA422D13D006C60025BB54 /* ludus */,
+				1ADA424F13D006C60025BB54 /* ludusTests */,
+				1ADA422613D006C60025BB54 /* Frameworks */,
+				1ADA422413D006C60025BB54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1ADA422413D006C60025BB54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ADA422313D006C60025BB54 /* ludus.app */,
+				1ADA424713D006C60025BB54 /* ludusTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ADA422613D006C60025BB54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1ADA422713D006C60025BB54 /* UIKit.framework */,
+				1ADA422913D006C60025BB54 /* Foundation.framework */,
+				1ADA422B13D006C60025BB54 /* CoreGraphics.framework */,
+				1ADA424813D006C60025BB54 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1ADA422D13D006C60025BB54 /* ludus */ = {
+			isa = PBXGroup;
+			children = (
+				1ADA423613D006C60025BB54 /* ludusAppDelegate.h */,
+				1ADA423713D006C60025BB54 /* ludusAppDelegate.m */,
+				1ADA423913D006C60025BB54 /* ludusViewController.h */,
+				1ADA423A13D006C60025BB54 /* ludusViewController.m */,
+				1ADA423C13D006C60025BB54 /* ludusViewController_iPhone.xib */,
+				1ADA423F13D006C60025BB54 /* ludusViewController_iPad.xib */,
+				1ADA422E13D006C60025BB54 /* Supporting Files */,
+			);
+			path = ludus;
+			sourceTree = "<group>";
+		};
+		1ADA422E13D006C60025BB54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1ADA422F13D006C60025BB54 /* ludus-Info.plist */,
+				1ADA423013D006C60025BB54 /* InfoPlist.strings */,
+				1ADA423313D006C60025BB54 /* main.m */,
+				1ADA423513D006C60025BB54 /* ludus-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1ADA424F13D006C60025BB54 /* ludusTests */ = {
+			isa = PBXGroup;
+			children = (
+				1ADA425513D006C60025BB54 /* ludusTests.h */,
+				1ADA425713D006C60025BB54 /* ludusTests.m */,
+				1ADA425013D006C60025BB54 /* Supporting Files */,
+			);
+			path = ludusTests;
+			sourceTree = "<group>";
+		};
+		1ADA425013D006C60025BB54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1ADA425113D006C60025BB54 /* ludusTests-Info.plist */,
+				1ADA425213D006C60025BB54 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ADA422213D006C60025BB54 /* ludus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ADA425B13D006C60025BB54 /* Build configuration list for PBXNativeTarget "ludus" */;
+			buildPhases = (
+				1ADA421F13D006C60025BB54 /* Sources */,
+				1ADA422013D006C60025BB54 /* Frameworks */,
+				1ADA422113D006C60025BB54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ludus;
+			productName = ludus;
+			productReference = 1ADA422313D006C60025BB54 /* ludus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1ADA424613D006C60025BB54 /* ludusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ADA425E13D006C60025BB54 /* Build configuration list for PBXNativeTarget "ludusTests" */;
+			buildPhases = (
+				1ADA424213D006C60025BB54 /* Sources */,
+				1ADA424313D006C60025BB54 /* Frameworks */,
+				1ADA424413D006C60025BB54 /* Resources */,
+				1ADA424513D006C60025BB54 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1ADA424E13D006C60025BB54 /* PBXTargetDependency */,
+			);
+			name = ludusTests;
+			productName = ludusTests;
+			productReference = 1ADA424713D006C60025BB54 /* ludusTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ADA421A13D006C60025BB54 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1ADA421D13D006C60025BB54 /* Build configuration list for PBXProject "ludus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1ADA421813D006C60025BB54;
+			productRefGroup = 1ADA422413D006C60025BB54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ADA422213D006C60025BB54 /* ludus */,
+				1ADA424613D006C60025BB54 /* ludusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ADA422113D006C60025BB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADA423213D006C60025BB54 /* InfoPlist.strings in Resources */,
+				1ADA423E13D006C60025BB54 /* ludusViewController_iPhone.xib in Resources */,
+				1ADA424113D006C60025BB54 /* ludusViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADA424413D006C60025BB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADA425413D006C60025BB54 /* InfoPlist.strings in Resources */,
+				1ADA425613D006C60025BB54 /* ludusTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ADA424513D006C60025BB54 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ADA421F13D006C60025BB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADA423413D006C60025BB54 /* main.m in Sources */,
+				1ADA423813D006C60025BB54 /* ludusAppDelegate.m in Sources */,
+				1ADA423B13D006C60025BB54 /* ludusViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADA424213D006C60025BB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADA425813D006C60025BB54 /* ludusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1ADA424E13D006C60025BB54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1ADA422213D006C60025BB54 /* ludus */;
+			targetProxy = 1ADA424D13D006C60025BB54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1ADA423013D006C60025BB54 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ADA423113D006C60025BB54 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1ADA423C13D006C60025BB54 /* ludusViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ADA423D13D006C60025BB54 /* en */,
+			);
+			name = ludusViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		1ADA423F13D006C60025BB54 /* ludusViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ADA424013D006C60025BB54 /* en */,
+			);
+			name = ludusViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		1ADA425213D006C60025BB54 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ADA425313D006C60025BB54 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1ADA425913D006C60025BB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1ADA425A13D006C60025BB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1ADA425C13D006C60025BB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ludus/ludus-Prefix.pch";
+				INFOPLIST_FILE = "ludus/ludus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1ADA425D13D006C60025BB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ludus/ludus-Prefix.pch";
+				INFOPLIST_FILE = "ludus/ludus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1ADA425F13D006C60025BB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ludus.app/ludus";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ludus/ludus-Prefix.pch";
+				INFOPLIST_FILE = "ludusTests/ludusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1ADA426013D006C60025BB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ludus.app/ludus";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ludus/ludus-Prefix.pch";
+				INFOPLIST_FILE = "ludusTests/ludusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ADA421D13D006C60025BB54 /* Build configuration list for PBXProject "ludus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADA425913D006C60025BB54 /* Debug */,
+				1ADA425A13D006C60025BB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ADA425B13D006C60025BB54 /* Build configuration list for PBXNativeTarget "ludus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADA425C13D006C60025BB54 /* Debug */,
+				1ADA425D13D006C60025BB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1ADA425E13D006C60025BB54 /* Build configuration list for PBXNativeTarget "ludusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADA425F13D006C60025BB54 /* Debug */,
+				1ADA426013D006C60025BB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1ADA421A13D006C60025BB54 /* Project object */;
+}
