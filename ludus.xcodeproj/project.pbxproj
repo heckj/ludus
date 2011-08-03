@@ -201,6 +201,9 @@
 /* Begin PBXProject section */
 		1ADA421A13D006C60025BB54 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = 1ADA421D13D006C60025BB54 /* Build configuration list for PBXProject "ludus" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -446,6 +449,7 @@
 				1ADA425D13D006C60025BB54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1ADA425E13D006C60025BB54 /* Build configuration list for PBXNativeTarget "ludusTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +458,7 @@
 				1ADA426013D006C60025BB54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
