@@ -3,7 +3,7 @@
 //  ludus
 //
 //  Created by Joseph Heck on 7/14/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Deallus Software. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
