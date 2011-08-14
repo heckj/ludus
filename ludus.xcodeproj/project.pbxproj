@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A8212E313F861730050CE65 /* GameboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8212E213F861730050CE65 /* GameboardView.m */; };
+		1A8212E913F862BC0050CE65 /* wood_light_light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A8212E513F862BC0050CE65 /* wood_light_light.jpg */; };
+		1A8212EA13F862BC0050CE65 /* wood_soft_light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A8212E613F862BC0050CE65 /* wood_soft_light.jpg */; };
+		1A8212EB13F862BC0050CE65 /* wood_red.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A8212E713F862BC0050CE65 /* wood_red.jpg */; };
+		1A8212EC13F862BC0050CE65 /* wood_light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A8212E813F862BC0050CE65 /* wood_light.jpg */; };
 		1ADA422813D006C60025BB54 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADA422713D006C60025BB54 /* UIKit.framework */; };
 		1ADA422A13D006C60025BB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADA422913D006C60025BB54 /* Foundation.framework */; };
 		1ADA422C13D006C60025BB54 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADA422B13D006C60025BB54 /* CoreGraphics.framework */; };
@@ -36,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A8212E113F861730050CE65 /* GameboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameboardView.h; sourceTree = "<group>"; };
+		1A8212E213F861730050CE65 /* GameboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameboardView.m; sourceTree = "<group>"; };
+		1A8212E513F862BC0050CE65 /* wood_light_light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wood_light_light.jpg; sourceTree = "<group>"; };
+		1A8212E613F862BC0050CE65 /* wood_soft_light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wood_soft_light.jpg; sourceTree = "<group>"; };
+		1A8212E713F862BC0050CE65 /* wood_red.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wood_red.jpg; sourceTree = "<group>"; };
+		1A8212E813F862BC0050CE65 /* wood_light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wood_light.jpg; sourceTree = "<group>"; };
 		1ADA422313D006C60025BB54 /* ludus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ludus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ADA422713D006C60025BB54 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1ADA422913D006C60025BB54 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -122,6 +133,8 @@
 				1ADA423A13D006C60025BB54 /* ludusViewController.m */,
 				1ADA423C13D006C60025BB54 /* ludusViewController_iPhone.xib */,
 				1ADA423F13D006C60025BB54 /* ludusViewController_iPad.xib */,
+				1A8212E113F861730050CE65 /* GameboardView.h */,
+				1A8212E213F861730050CE65 /* GameboardView.m */,
 				1ADA422E13D006C60025BB54 /* Supporting Files */,
 			);
 			path = ludus;
@@ -130,6 +143,10 @@
 		1ADA422E13D006C60025BB54 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1A8212E513F862BC0050CE65 /* wood_light_light.jpg */,
+				1A8212E613F862BC0050CE65 /* wood_soft_light.jpg */,
+				1A8212E713F862BC0050CE65 /* wood_red.jpg */,
+				1A8212E813F862BC0050CE65 /* wood_light.jpg */,
 				1ADA422F13D006C60025BB54 /* ludus-Info.plist */,
 				1ADA423013D006C60025BB54 /* InfoPlist.strings */,
 				1ADA423313D006C60025BB54 /* main.m */,
@@ -230,6 +247,10 @@
 				1ADA423213D006C60025BB54 /* InfoPlist.strings in Resources */,
 				1ADA423E13D006C60025BB54 /* ludusViewController_iPhone.xib in Resources */,
 				1ADA424113D006C60025BB54 /* ludusViewController_iPad.xib in Resources */,
+				1A8212E913F862BC0050CE65 /* wood_light_light.jpg in Resources */,
+				1A8212EA13F862BC0050CE65 /* wood_soft_light.jpg in Resources */,
+				1A8212EB13F862BC0050CE65 /* wood_red.jpg in Resources */,
+				1A8212EC13F862BC0050CE65 /* wood_light.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +289,7 @@
 				1ADA423413D006C60025BB54 /* main.m in Sources */,
 				1ADA423813D006C60025BB54 /* ludusAppDelegate.m in Sources */,
 				1ADA423B13D006C60025BB54 /* ludusViewController.m in Sources */,
+				1A8212E313F861730050CE65 /* GameboardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
